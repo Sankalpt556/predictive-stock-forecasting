@@ -14,7 +14,7 @@ class NewsSentimentAnalyzerApp:
 
         # --- API Key (Hardcoded - SECURITY RISK) ---
         # WARNING: Hardcoding keys is risky. Consider environment variables or secrets management.
-        self.NEWS_API_KEY = "d9bde6ceee3941c99948f5983585bead" # Your provided key
+        self.NEWS_API_KEY = "aaaaaaaaaaaaaaaaaaaaaaaaa" # Your provided key
 
         # Basic check if the key is empty during initialization
         if not self.NEWS_API_KEY:
