@@ -3,7 +3,7 @@ class StockForecastingApp:
     def __init__(self):
         """Initialize the app configuration and state."""
         # --- Configuration ---
-        self.API_KEY = "8d2cf507845a1c54c2a7fb522b51f271" # <<< Replace with your key if needed
+        self.API_KEY = "##########################" # <<< Replace with your key if needed
         self.BASE_URL = "https://api.marketstack.com/v1/eod"
         self.company_dict = {
             "Apple Inc.": "AAPL", "Microsoft Corporation": "MSFT", "Amazon.com Inc.": "AMZN",
